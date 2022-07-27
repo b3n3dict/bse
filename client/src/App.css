@@ -34,13 +34,13 @@ min-height: 90vh;
   padding: 10px;
   display: flex;
   align-items: center;
-  z-index: 10;
 }
 .input{
   background-color: #fff;
   outline: none;
   border:none;
   width: 100%;
+  margin-left: 5px;
 }
 .list-group{
   z-index: -2;
@@ -69,7 +69,7 @@ min-height: 90vh;
 }
 .data_con{
   background-color:rgba(250, 250, 250, 0.838) ;
-  height: 200px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 5px;

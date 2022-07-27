@@ -15,11 +15,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 const __dirname = path.resolve();
 
-app.use(express.static(path.join(__dirname, "./client/build")));
-//routes
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build", "index.html"));
-});
+// app.use(express.static(path.join(__dirname, "./client/build")));
+// //routes
+// app.get("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/build", "index.html"));
+// });
 app.get("/", (req, res) => {
   res.send("<h1>bse</h1>");
 });
